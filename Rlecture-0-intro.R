@@ -103,7 +103,7 @@ solve(B,d)          # solve B x = d
 
 
 # for 
-s <-0; for(i in 1:8){  # sum from 1 to 10
+s <-0; for(i in 1:8){  # sum from 1 to 8
   s <- s+i
   print(s)
 }

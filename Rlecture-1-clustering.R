@@ -56,6 +56,7 @@ par(mfrow=c(1,1), ps=14); plot(data,main="data")
 require(kernlab)  # specc
 sc <- specc(data$x, centers=2)  # spectral clustering
 km <- kmeans(data$x,2)          # kmeans
+
 # plot
 par(mfrow=c(1,2), ps=14)
 plot(data$x, col=sc,main='spectral clustering')
